@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+.navBar{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vmax 3vmax;
+}
+.navLeft{
+    display: flex;
+    gap: 2vmax;
+    align-items: center;
+}
+.navLeft>a{
+    text-decoration: none;
+    color: black;
+}
+
+.navRight>button{
+    padding: 0.6vmax 1.2vmax;
+    border: 0;
+    color: white;
+}
+.navRight>button:first-child{
+    background-color: #F44E6E;
+}
+.navRight>button:nth-child(2){
+    background-color: black;
+}

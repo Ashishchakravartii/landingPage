@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vmax 3vmax;
+}
+.navLeft{
+    display: flex;
+    gap: 2vmax;
+    align-items: center;
+}
+.navLeft>a{
+    text-decoration: none;
+    color: black;
+}
+
+.navRight>button{
+    padding: 0.6vmax 1.2vmax;
+    border: 0;
+    color: white;
+}
+.navRight>button:first-child{
+    background-color: #F44E6E;
+}
+.navRight>button:nth-child(2){
+    background-color: black;
+}
+
+.bottomSec{
+    width: 100%;
+    height: 90.25%;
+    display: flex;
+}
+
+.bottomSec>div{
+    width: 50%;
+    height: 100%;
+}
+
+
+.bottomRight{
+    background-image: url("https://images.unsplash.com/photo-1557672172-298e090bd0f1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bottomLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+
+}
+.bottomLeft>h1{
+    font-size: 4vmax;
+    font-family: "Roboto";
+    width: 80%;
+}
+.bottomLeft>p{
+    width: 65%;
+    margin-right: 7vmax;
+    text-align: left;
+}
+
+
+.bottomLeft>button{
+    background-color: transparent;
+    border: 0;
+    font-weight: 700;
+    font-size: 1.2vmax;
+    margin-right: 35vmax;
+}
